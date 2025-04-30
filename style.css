@@ -1,0 +1,270 @@
+header {
+  background-color: #222;
+  color: white;
+  padding: 15px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hero-image img {
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.contact-section {
+  background-color: #f0f0f0;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+form button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+.product-hero {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.product-hero img {
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.product-details {
+  background-color: #f8f8f8;
+  padding: 40px 20px;
+}
+
+.product-details h3 {
+  font-size: 1.5em;
+  margin-top: 30px;
+}
+
+.product-details ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.product-details ul li {
+  padding: 10px 0;
+  font-size: 1.1em;
+}
+.services-hero {
+  background-color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.service-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+.video-hero {
+  background-color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.video-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 40px 20px;
+  background-color: #f0f0f0;
+}
+
+.video-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+video {
+  width: 100%;
+  border-radius: 10px;
+}
+.about-hero {
+  background-color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.about-content {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+}
+
+.about-text {
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
+  font-size: 1.1em;
+}
+.contact-hero {
+  background-color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.contact-form-section {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  padding: 10px;
+  background-color: #2a8bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0066cc;
+}
+.team-hero {
+  background-color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 40px 20px;
+  background-color: #f2f2f2;
+}
+
+.team-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.team-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
